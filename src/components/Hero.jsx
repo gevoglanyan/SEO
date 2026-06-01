@@ -81,8 +81,9 @@ export default function Hero() {
           </div>
         </div>
         <div className="fade-up fade-up-2">
-          <h1 style={styles.h1}>Web Design & SEO</h1>
-          <span style={styles.h1line2}>One subscription.</span>
+          <h1 style={styles.h1}>Web <br /> Design & SEO</h1>
+          <br />
+          <span style={styles.h1line2}>One Subscription.</span>
         </div>
         <div className="fade-up fade-up-3">
           <p style={styles.sub}>

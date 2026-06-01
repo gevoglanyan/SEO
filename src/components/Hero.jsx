@@ -71,7 +71,6 @@ export default function Hero() {
 
   return (
     <section style={styles.section}>
-      <div style={styles.gridBg}></div>
       <div style={styles.glow}></div>
       <div className="container" style={styles.inner}>
         <div className="fade-up fade-up-1">
@@ -87,7 +86,7 @@ export default function Hero() {
         </div>
         <div className="fade-up fade-up-3">
           <p style={styles.sub}>
-            Web design and SEO for professional service companies. One subscription. No contracts.
+            Web Design and SEO for professional service companies. One subscription. No contracts.
             Stop juggling agencies and freelancers. Get unlimited web development, search optimization,
             and automation — all for one flat monthly fee.
           </p>

@@ -78,9 +78,12 @@ export default function Navbar() {
   return (
     <header style={{ ...styles.nav, ...(scrolled ? styles.navScrolled : {}) }}>
       <div style={styles.inner}>
-        <div style={styles.logo}>
+        <button
+          style={{ ...styles.logo, background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
           Onyx <span style={styles.logoAccent}>Interactive</span>
-        </div>
+        </button>
         <nav>
           <ul style={styles.links} className="desktop-nav">
             {navLinks.map(l => (

@@ -31,12 +31,12 @@ const styles = {
 };
 
 const features = [
-  { icon: '⚡', title: 'Lightning fast', text: 'Most requests completed in 24–72 hours. No more waiting weeks for simple updates.' },
-  { icon: '💳', title: 'Fixed monthly rate', text: 'No surprises. No hourly billing. One flat price every month for unlimited requests.' },
-  { icon: '⏸', title: 'Pause anytime', text: 'Busy month? Pause your subscription and pick back up when you\'re ready. No penalties.' },
-  { icon: '🧩', title: 'All-in-one', text: 'Websites, SEO, and automation under one roof. No more managing multiple vendors.' },
-  { icon: '🤝', title: 'Personal service', text: 'Work directly with our team. No handoffs, no miscommunication. Just clear, fast execution.' },
-  { icon: '🔒', title: 'You own everything', text: 'Every website, every asset is 100% yours. Transfer ownership anytime at no extra cost.' },
+  { icon: '⚡', title: 'Lightning Fast', text: 'Most requests completed in 24–72 hours. No more waiting weeks for simple updates.' },
+  { icon: '💳', title: 'Fixed Monthly Rate', text: 'No surprises. No hourly billing. One flat price every month for unlimited requests.' },
+  { icon: '⏸', title: 'Pause Anytime', text: 'Busy month? Pause your subscription and pick back up when you\'re ready. No penalties.' },
+  { icon: '🧩', title: 'All-in-One', text: 'Websites, SEO, and automation under one roof. No more managing multiple vendors.' },
+  { icon: '🤝', title: 'Personal Service', text: 'Work directly with our team. No handoffs, no miscommunication. Just clear, fast execution.' },
+  { icon: '🔒', title: 'You Own Everything', text: 'Every website, every asset is 100% yours. Transfer ownership anytime at no extra cost.' },
 ];
 
 export default function WhyUs() {

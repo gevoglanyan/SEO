@@ -53,6 +53,7 @@ export default function Footer() {
             <div style={styles.glow}></div>
             <h2 style={styles.ctaTitle}>Ready to grow your digital presence?</h2>
             <p style={styles.ctaText}>Stop piecing together agencies and freelancers. Get everything you need under one roof.</p>
+            <br />
             <button className="btn-primary" onClick={() => scrollTo('pricing')}>
               Get started today →
             </button>

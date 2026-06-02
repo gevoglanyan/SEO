@@ -410,12 +410,16 @@ export default function Pricing() {
               ))}
             </div>
 
+            <br /> <br />
+
             <div style={styles.upsell}>
               <p style={styles.upsellText}>
                 Want ongoing growth instead? Get unlimited updates, SEO, and hosting
                 in one monthly plan.
               </p>
-
+              
+              <br />
+              
               <button
                 style={{
                   ...styles.btnFull,
@@ -427,6 +431,9 @@ export default function Pricing() {
               >
                 View Subscription Plans →
               </button>
+
+              <br /> <br />
+
             </div>
           </>
         ) : (
@@ -440,11 +447,15 @@ export default function Pricing() {
               ))}
             </div>
 
+            <br /> <br />
+
             <div style={styles.upsell}>
               <p style={styles.upsellText}>
                 Not ready for ongoing support? Start with a one-time website build
                 instead.
               </p>
+
+              <br />
 
               <button
                 style={{
@@ -457,6 +468,9 @@ export default function Pricing() {
               >
                 View Project Packages →
               </button>
+
+              <br /> <br />
+              
             </div>
           </>
         )}

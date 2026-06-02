@@ -54,7 +54,7 @@ const styles = {
     display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
     gap: '1px', background: '#1e1e1e',
     border: '1px solid #1e1e1e', borderRadius: '12px', overflow: 'hidden',
-    maxWidth: '700px', margin: '0 auto',
+    maxWidth: '1000px', margin: '0 auto',
   },
   stat: {
     background: '#0f0f0f', padding: '24px 20px', textAlign: 'center',
@@ -104,10 +104,10 @@ export default function Hero() {
         </div>
         <div className="fade-up fade-up-5" style={styles.statsRow}>
           {[
-            { value: '24–72h', label: 'Average turnaround' },
-            { value: 'Unlimited', label: 'Requests & revisions' },
-            { value: '100%', label: 'Ownership is yours' },
-            { value: 'No contracts', label: 'Pause or cancel anytime' },
+            { value: '24 – 72h', label: 'Average Turnaround' },
+            { value: 'Unlimited', label: 'Requests & Revisions' },
+            { value: '100%', label: 'Ownership is Yours' },
+            { value: 'Negotiable', label: 'Pause or Cancel Anytime' },
           ].map((s, i) => (
             <div key={i} style={styles.stat}>
               <div style={styles.statValue}>{s.value}</div>
